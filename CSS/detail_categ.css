@@ -1,0 +1,40 @@
+body {
+    background-color: lightgray;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.desc {
+    text-align: center;
+}
+
+.expl {
+    margin-left: 5%;
+}
+
+.card {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.ajt {
+    margin-bottom: 20px;
+}
+
+/* Pour les petits écrans */
+@media (max-width: 992px) {
+    .sidebar-content {
+        margin-bottom: 30px;
+    }
+}
